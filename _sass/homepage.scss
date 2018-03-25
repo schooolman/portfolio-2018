@@ -1,0 +1,27 @@
+// General Homepage
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  min-height: 80vh;
+  .left-content {
+    display: block;
+    position: relative;
+    h2 { color: $red; }
+  }
+  .right-content {
+    display: block;
+    position: relative;
+    h2 { color: $blue; }
+  }
+  .logo {
+    // display: block;
+    // margin: 10px auto;
+    // max-width: 200px;
+    img {
+      height: 90%;
+    }
+    svg { height: 100%; }
+  }
+}

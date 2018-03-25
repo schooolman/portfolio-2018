@@ -1,0 +1,60 @@
+// This is the base style sets for the Portfolio
+
+// Variables
+
+$black: #000000;
+$red: #ee392d;
+$orange: #f78d28;
+$green:#00ac5f;
+$yellow: #f9ec2c;
+$blue: #4ec8f5;
+$grey: #cccccc;
+
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,900|Playfair+Display:400,400i,700');
+
+// Headers
+
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  position: relative;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  font-family:'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+  &:hover { text-decoration: none; }
+  &:visited { color: $black !important; }
+  &:-webkit-any-link { color: $black; }
+  &.red {&:hover{color: $red; border-bottom: 1px solid $red;}}
+  &.green {&:hover{color: $green; border-bottom: 1px solid $green;}}
+  &.blue { &:hover{color: $blue; border-bottom: 1px solid $blue;}}
+}
+
+body {
+  padding: 5px;
+}
