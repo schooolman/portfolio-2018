@@ -1,4 +1,5 @@
 header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -8,12 +9,14 @@ header {
   h1 {
     float: left;
     margin-right: 200px;
+    transform: translateY(50px);
   }
   .navigation {
     display: flex;
     position: relative;
     font-family: 'Muli', sans-serif;
     font-size: 20px;
+    transform: translateY(50px);
     li {
       margin-right: 20px;
       &::after {
